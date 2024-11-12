@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kanban-Board/static/css/main.411f5fbf.css",
-    "main.js": "/Kanban-Board/static/js/main.f27dadbc.js",
+    "main.css": "/Kanban-Board/static/css/main.6f580a33.css",
+    "main.js": "/Kanban-Board/static/js/main.a74d75e5.js",
     "static/js/453.b995ab79.chunk.js": "/Kanban-Board/static/js/453.b995ab79.chunk.js",
     "static/media/logo.svg": "/Kanban-Board/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/Display.svg": "/Kanban-Board/static/media/Display.0168095040354204011b596e30abf32e.svg",
@@ -21,12 +21,12 @@
     "static/media/Backlog.svg": "/Kanban-Board/static/media/Backlog.97adf3356b7d2e775ef530f7aed206e0.svg",
     "static/media/To-do.svg": "/Kanban-Board/static/media/To-do.c01d92afcffeef58b2cd9ae080df1f58.svg",
     "static/media/circle.svg": "/Kanban-Board/static/media/circle.d10f51d6af509f4235921d41766ad283.svg",
-    "main.411f5fbf.css.map": "/Kanban-Board/static/css/main.411f5fbf.css.map",
-    "main.f27dadbc.js.map": "/Kanban-Board/static/js/main.f27dadbc.js.map",
+    "main.6f580a33.css.map": "/Kanban-Board/static/css/main.6f580a33.css.map",
+    "main.a74d75e5.js.map": "/Kanban-Board/static/js/main.a74d75e5.js.map",
     "453.b995ab79.chunk.js.map": "/Kanban-Board/static/js/453.b995ab79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.411f5fbf.css",
-    "static/js/main.f27dadbc.js"
+    "static/css/main.6f580a33.css",
+    "static/js/main.a74d75e5.js"
   ]
 }
