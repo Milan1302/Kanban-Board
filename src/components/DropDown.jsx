@@ -29,11 +29,11 @@ export default function DropDown(props) {
             };
         }, []);
   return (
-    <div  style={{position:'relative' , display: 'inline-block'}}>
+    <div  style={{position:'relative' , display: 'inline-block', width:'80px'}}>
     <div className='drop' onClick={toggleDropdown}>
         <div>
-            <span>{props.sstates[props.current_display]}</span> 
-            <span><img src={down} alt="" srcset="" /></span>
+            <div className='one'>{props.sstates[props.current_display]}</div> 
+            <div className='two'><img src={down} alt="" srcset="" /></div>
         </div>
     </div>
     {isDropdownOpen && <div   style={styles.dropdown}>
@@ -48,6 +48,7 @@ export default function DropDown(props) {
 const styles = {
     dropdown: {
       position: 'absolute',
+      width:'80px',
       top: "100%", 
       left: "0px",
       backgroundColor: '#fff',

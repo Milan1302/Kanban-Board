@@ -52,6 +52,7 @@ const styles = {
       border: '1px solid #ccc',
       borderRadius: '10px',
       boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
+      width:'250px',
       zIndex: 1000, // Ensures it appears above other elements
     },
   };

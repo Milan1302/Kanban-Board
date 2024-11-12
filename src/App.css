@@ -135,6 +135,7 @@ body{
   border-radius: 10px;
   padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
 }
 .Navbar div img{
   margin-right: 5px;
@@ -161,18 +162,23 @@ body{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
-.drop div span{
+.drop div .one{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  margin-left: 2px;
-  margin-right: 2px;
+}
+.drop div .two{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .drop1{
   text-decoration: none;
   list-style-type: none;
   padding-left: 1px;
+  cursor: pointer;
 }
 .drop1{
   margin-bottom: 1px;
