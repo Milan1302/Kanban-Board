@@ -1,38 +1,198 @@
 .App {
   text-align: center;
+  
+  height: max(100%, 100vh);
+  width: 100vw;
+  padding-left: 0px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: aliceblue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  width: 100%;
+  border: 2px solid aliceblue;
+  border-radius: 8px; 
+  padding: 10px;
+  font-size: medium;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  min-width: 172px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card .title{
+  width: 100%;
+  text-align: left;
+  color: gray;
+}
+.card .title p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.card .task{
   display: flex;
-  flex-direction: column;
+  justify-content: left;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+
+.card .task .icon{
+  height: 100%;
+  margin-right: 5px;
+}
+.card .task .taskName{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.card .task .taskName p{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: left;
+}
+.card .tag{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.card .tag .priority{
+  border: 0.5px solid gray;
+  border-radius: 7px;
+  padding: 2px;
+  height: 100%;
+  margin-right: 5px;
+}
+.card .tag .priority img{
+
+  
+  height: 100%;
+}
+.card .tag .FeedBack ul{
+  margin: 0px;
+  padding: 0;
+  border: 0.5px solid grey;
+  border-radius: 8px;
+  width: fit-content;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.card .tag .FeedBack ul li{
+  color: grey;
+  padding: 2px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.row{
+  padding: 0px;
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.statusBlock{
+  width: 16vw;
+  min-width: 190px;
+  padding: 10px;
+  margin: 10px;
+}
+.statusTitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.statusTitle .imges img{
+  margin: 1px;
+}
+
+.Navbar{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.Navbar div{
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Navbar div img{
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.Dropdown .row1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Dropdown .row1 p{
+  margin-right: 30px;
+}
+.drop{
+  border: 0.5px solid black;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+}
+.drop div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.drop div span{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.drop1{
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 1px;
+}
+.drop1{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+.drop1 li{
+  margin-left: 0px;
+  padding-left: 10px;
+  margin-right: 0px;
+  padding-right: 10px;
+  text-align: left;
+  width: auto;
+}
+.drop1 li:hover{
+  background-color: blue;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.priority-dot{
+  border-radius: 50%;
+  background-color: grey;
+  height: 12px;
+  width: 12px;
 }
